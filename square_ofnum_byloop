@@ -1,0 +1,23 @@
+# print square of each number from the list.
+#1. using loop
+
+a = []
+n = int(input('enter the list size:'))
+for i in range (n):
+    val = int(input('enter the values:'))
+    a.append(val)
+print('original list is:',a)
+for val in a:
+    print(val,':',val**2)
+    
+    output=
+enter the list size:4
+enter the values:5
+enter the values:7
+enter the values:8
+enter the values:9
+original list is: [5, 7, 8, 9]
+5 : 25
+7 : 49
+8 : 64
+9 : 81    
