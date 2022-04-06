@@ -1,0 +1,67 @@
+## List methods in python
+
+
+a = []
+n = int(input('Enter max size:'))
+for i in range (n):
+    val = input('Enter values:')
+    a.append(val)
+    
+print('original list is:',a)
+print('Length of list is:',len(a))
+print('max of list is:',max(a))
+print('min of list is:',min(a))
+
+b = a
+print('Original list a is:',a)
+print('new list b is:',b)
+
+c = input('Enter the value you want to count:')
+d = a.count(c)
+print(c,'appeares in list',d,'times')
+
+e = input('enter the value whose index you want:')
+f = a.index(e)
+print(e,'is present at index',f)
+
+g = input('enter the value you want to insert:')
+h = int(input('enter index where you want to insert:'))
+a.insert(h,g)
+print(a)
+
+i = input('enter value you want to remove:')
+a.remove(i)
+print(a)
+
+print('original list is:',a)
+a.reverse()
+print('list after reversing is:',a)
+print('last element poped:',a.pop())
+
+output=
+Enter max size:4
+Enter values:22
+Enter values:77
+Enter values:55
+Enter values:99
+original list is: ['22', '77', '55', '99']
+Length of list is: 4
+max of list is: 99
+min of list is: 22
+Original list a is: ['22', '77', '55', '99']
+new list b is: ['22', '77', '55', '99']
+Enter the value you want to count:22
+22 appeares in list 1 times
+enter the value whose index you want:77
+77 is present at index 1
+enter the value you want to insert:33
+enter index where you want to insert:0
+['33', '22', '77', '55', '99']
+enter value you want to remove:22
+['33', '77', '55', '99']
+original list is: ['33', '77', '55', '99']
+list after reversing is: ['99', '55', '77', '33']
+last element poped: 33
+
+
+
