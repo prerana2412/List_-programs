@@ -1,0 +1,10 @@
+# using function
+
+
+numbers = [2,4,6,8]
+
+square = list(map(lambda n : n**2,numbers))
+print(square)
+
+output=
+[4, 16, 36, 64]
