@@ -1,0 +1,13 @@
+##usinf map_func
+
+
+l = [3,6,4]
+def square(n):
+    return n**2
+print(list(map(square,l)))
+
+output=
+[9, 36, 16]
+
+
+
